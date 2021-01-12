@@ -2,8 +2,8 @@
 
 namespace Modules\Core\Providers;
 
+use Modules\Core\Console\Install;
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Database\Eloquent\Factory;
 
 class CoreServiceProvider extends ServiceProvider
 {
@@ -40,6 +40,9 @@ class CoreServiceProvider extends ServiceProvider
         $this->app->register(RouteServiceProvider::class);
         $this->app->register(ResponseMacroServiceProvider::class);
 
+        // register commands
+        $this->commands(Install::class);
+
     }
 
     /**
@@ -69,7 +72,7 @@ class CoreServiceProvider extends ServiceProvider
         $sourcePath = module_path($this->moduleName, 'Resources/views');
 
         $this->publishes([
-            $sourcePath => $viewPath
+            $sourcePath => $viewPath,
         ], ['views', $this->moduleNameLower . '-module-views']);
 
         $this->loadViewsFrom(array_merge($this->getPublishableViewPaths(), [$sourcePath]), $this->moduleNameLower);
