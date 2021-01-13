@@ -20,6 +20,7 @@
         "laravel/passport": "^10.1",
         "spatie/laravel-permission": "^3.18",
         "teamtnt/laravel-scout-tntsearch-driver": "^11.1",
+        "builtbypixel/countries-module": "dev-master",
         "builtbypixel/page-module": "dev-master",
         "builtbypixel/blog-module": "dev-master"
     },
@@ -28,26 +29,26 @@
             "Modules\\Core\\": ""
         }
     },
-    "repositories": [
-        {
+    "repositories": {
+        "builtbypixel/auth-module": {
             "type": "vcs",
             "url": "https://pixelchrismills@bitbucket.org/builtbypixel/auth-module.git"
         },
-       {
+        "builtbypixel/adminuser-module": {
             "type": "vcs",
             "url": "https://pixelchrismills@bitbucket.org/builtbypixel/adminuser-module.git"
         },
-        {
+        "builtbypixel/blog-module": {
             "type": "vcs",
             "url": "https://pixelchrismills@bitbucket.org/builtbypixel/blog-module.git"
         },
-        {
+        "builtbypixel/countries-module": {
             "type": "vcs",
             "url": "https://pixelchrismills@bitbucket.org/builtbypixel/countries-module.git"
         },
-         {
+        "builtbypixel/page-module": {
             "type": "vcs",
             "url": "https://pixelchrismills@bitbucket.org/builtbypixel/page-module.git"
         }
-    ]
+    }
 }
