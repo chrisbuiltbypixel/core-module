@@ -28,20 +28,24 @@
             "Modules\\Core\\": ""
         }
     },
+    "repositories": [
+        {
             "type": "vcs",
             "url": "https://pixelchrismills@bitbucket.org/builtbypixel/auth-module.git"
         },
-        {
+       {
             "type": "vcs",
             "url": "https://pixelchrismills@bitbucket.org/builtbypixel/adminuser-module.git"
         },
+        {
             "type": "vcs",
             "url": "https://pixelchrismills@bitbucket.org/builtbypixel/blog-module.git"
         },
+        {
             "type": "vcs",
             "url": "https://pixelchrismills@bitbucket.org/builtbypixel/countries-module.git"
         },
-        {
+         {
             "type": "vcs",
             "url": "https://pixelchrismills@bitbucket.org/builtbypixel/page-module.git"
         }
