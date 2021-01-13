@@ -28,7 +28,7 @@
             "Modules\\Core\\": ""
         }
     },
-    "repositories": {
+    "repositories": [
         "builtbypixel/auth-module": {
             "type": "vcs",
             "url": "https://pixelchrismills@bitbucket.org/builtbypixel/auth-module.git"
@@ -49,5 +49,5 @@
             "type": "vcs",
             "url": "https://pixelchrismills@bitbucket.org/builtbypixel/page-module.git"
         }
-    }
+    ]
 }
