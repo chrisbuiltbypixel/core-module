@@ -29,23 +29,23 @@
         }
     },
     "repositories": [
-        "builtbypixel/auth-module": {
+        {
             "type": "vcs",
             "url": "https://pixelchrismills@bitbucket.org/builtbypixel/auth-module.git"
         },
-        "builtbypixel/adminuser-module": {
+       {
             "type": "vcs",
             "url": "https://pixelchrismills@bitbucket.org/builtbypixel/adminuser-module.git"
         },
-        "builtbypixel/blog-module": {
+        {
             "type": "vcs",
             "url": "https://pixelchrismills@bitbucket.org/builtbypixel/blog-module.git"
         },
-        "builtbypixel/countries-module": {
+        {
             "type": "vcs",
             "url": "https://pixelchrismills@bitbucket.org/builtbypixel/countries-module.git"
         },
-        "builtbypixel/page-module": {
+         {
             "type": "vcs",
             "url": "https://pixelchrismills@bitbucket.org/builtbypixel/page-module.git"
         }
