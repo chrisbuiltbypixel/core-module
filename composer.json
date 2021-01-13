@@ -20,7 +20,6 @@
         "laravel/passport": "^10.1",
         "spatie/laravel-permission": "^3.18",
         "teamtnt/laravel-scout-tntsearch-driver": "^11.1",
-        "builtbypixel/page-module": "dev-master",
         "builtbypixel/blog-module": "dev-master"
     },
     "autoload": {
