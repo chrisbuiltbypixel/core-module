@@ -44,7 +44,7 @@ class Install extends Command
             $this->call('passport:install');
         };
 
-        // run over the installed modules and
+        // run over the enabled modules and
         // import the scout indexes.
         $this->info('Indexing models');
 
@@ -53,7 +53,7 @@ class Install extends Command
             $data['first_name'] = $this->ask("What's your First Name");
             $data['last_name'] = $this->ask("What's your Last Name");
             $data['email'] = $this->ask("What's your email");
-            $password = Str::random(10);
+            $password = Str::random(15);
             $data['password'] = bcrypt($password);
 
             if (AdminUser::where('email', $data['email'])->exists()) {
@@ -66,7 +66,6 @@ class Install extends Command
                 $this->comment('password: ' . $password);
 
             }
-
         };
 
         $this->info('Proton has been installed');
