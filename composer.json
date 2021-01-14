@@ -21,7 +21,16 @@
         "laravel/passport": "^10.1",
         "spatie/laravel-permission": "^3.18",
         "teamtnt/laravel-scout-tntsearch-driver": "^11.1",
-        "builtbypixel/blog-module": "dev-master"
+        "builtbypixel/auth-module": "dev-master",
+        "builtbypixel/adminuser-module": "dev-master",
+        "builtbypixel/blog-module": "dev-master",
+        "builtbypixel/contact-module": "dev-master",
+        "builtbypixel/page-module": "dev-master",
+        "builtbypixel/user-module": "dev-master",
+        "builtbypixel/setting-module": "dev-master",
+        "builtbypixel/module-module": "dev-master",
+        "builtbypixel/media-module": "dev-master",
+        "builtbypixel/sidebar-module": "dev-master"
     },
     "autoload": {
         "psr-4": {
