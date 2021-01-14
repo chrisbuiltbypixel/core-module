@@ -1,0 +1,3 @@
+[submodule "blog-module.git"]
+	path = blog-module
+	url = https://pixelchrismills@bitbucket.org/builtbypixel/blog-module.git

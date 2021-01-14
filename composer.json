@@ -1,6 +1,7 @@
 {
     "name": "builtbypixel/core-module",
     "description": "",
+    "type": "laravel-module",
     "authors": [
         {
             "name": "Chris Mills",
@@ -20,17 +21,12 @@
         "laravel/passport": "^10.1",
         "spatie/laravel-permission": "^3.18",
         "teamtnt/laravel-scout-tntsearch-driver": "^11.1",
-        "builtbypixel/blog-module": "dev-master#v0.1.0"
+        "builtbypixel/blog-module": "dev-master",
+        "builtbypixel/page-module": "dev-master"
     },
     "autoload": {
         "psr-4": {
             "Modules\\Core\\": ""
-        }
-    },
-    "repositories": {
-        "builtbypixel/blog-module": {
-            "type": "vcs",
-            "url": "https://pixelchrismills@bitbucket.org/builtbypixel/blog-module.git"
         }
     }
 }
