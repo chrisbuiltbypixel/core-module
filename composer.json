@@ -22,7 +22,7 @@
         "spatie/laravel-permission": "^3.18",
         "teamtnt/laravel-scout-tntsearch-driver": "^11.1",
         "builtbypixel/auth-module": "dev-master",
-        "builtbypixel/adminuser-module": "dev-master",
+        "builtbypixel/admin-user-module": "dev-master",
         "builtbypixel/blog-module": "dev-master",
         "builtbypixel/contact-module": "dev-master",
         "builtbypixel/page-module": "dev-master",
